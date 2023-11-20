@@ -1,0 +1,132 @@
+.flex-con{
+    height: 80px;
+    background-color: darkcyan;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    border-bottom: 13px solid darkgoldenrod;
+    align-items: center;     
+}
+h1{
+    font-size: 25px;
+    padding: 20px;
+    color: darkred;
+    font-family: Verdana;
+}
+.option{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding-left: 300px;
+    font-family: Trebuchet MS;
+    font-weight: bold;
+    
+}
+.nav{
+    color: lightcyan;
+    font-size: 22px;
+    text-decoration: none;
+    text-align: end;
+    padding: 20px;
+}
+.nav:hover {
+   background-color: blue;
+   padding: 5%;
+}
+.images{
+    padding-left: 2px;
+    height: 90px;
+    width:85px; 
+}
+.images1{
+    padding-left: 2px;
+    height: 80px;;
+    width:80px;
+}
+.secline{
+    background-image: url("/images/backg1.jpg");
+    background-position:center;
+    background-size: cover;
+    height: 139px;;
+    padding: 5px;
+    margin-top: 15px;    
+}
+h2{
+    text-align: center;
+    color: khaki;
+}
+h3{
+    text-indent: .50in;
+    text-align: justify;
+    color: khaki;
+    font-size:19px;
+}
+.thirdline{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: lightgrey;
+}
+.sec{
+    text-indent: .50in;
+    font-size: 20px;
+    font-family: Trebuchet MS;
+    margin-top: 10px;
+    margin-left: 50px;
+    margin-bottom: 0px;
+}
+.one{
+    margin-top: 10px;
+    margin-left: 50px;
+    padding: 30px;
+    font-size: 22px; 
+    font-family: Trebuchet MS;      
+}
+.two{
+    margin: 10px;
+    padding: 25px;
+    font-size: 20px; 
+    font-family: Trebuchet MS;
+}
+.line1{
+    margin: 10px;
+    font-size: 18px;
+    font-family: Trebuchet MS;
+}
+.line2{
+    margin: 10px;
+    font-size: 20px;
+    font-family: Trebuchet MS;
+}
+li{
+    padding: 5px;
+}
+.sec3{
+    width: 300px;
+    height: 360px;
+    margin-top: 3%;
+    margin-right: 5%;
+    background-color: darkkhaki;
+}
+.three{
+    margin-top: 10px;
+    padding: 25px;
+    font-size: 20px; 
+    font-family: Trebuchet MS;
+    color: darkgreen;
+}
+.job{
+    font-size: 15px;
+    color: darkgreen;
+    font-family: Trebuchet MS;
+}
+.footer{
+    font-size: 12px;
+    left: 0 ;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background-color: darkgoldenrod;
+    padding: 7px;
+}            
